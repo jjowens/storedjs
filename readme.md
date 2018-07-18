@@ -67,8 +67,8 @@ storedjs.Append('Fullname', 'Esq.', undefined); // DrFred BloggsEsq.
 
 This will output in your browser console.
 ```text
-Fullname: Fred Bloggs index.html:24:5
-Available Key names held in storage Address1,Fullname,SerialNumber,TicketNumber index.html:25:5
+Fullname: Fred Bloggs
+Available Key names held in storage Address1,Fullname,SerialNumber,TicketNumber
 Key names and values in local storage
 […]
 ​
