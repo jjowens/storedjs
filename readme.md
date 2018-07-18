@@ -20,8 +20,7 @@ on the provided keyname e.g. Fullname.
 For example, if you previously set the StorageType as 'session' and 
 it will only clear values from the SessionStorage. Same with Localstorage.
 
-- **ClearAll()** - This will clear all values from both LocalStorage and SessionStorage. For example, if you previously set the StorageType as 'session' and 
-it will only clear values from the SessionStorage. Same with Localstorage.
+- **ClearAll()** - This will clear all values from both LocalStorage and SessionStorage.
 
 - **Count()** - This will count the number of items held in the current selected storage.
 
