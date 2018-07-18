@@ -2,7 +2,7 @@
 
 A Javascript API working with HTML 5 Web storage; localStorage or sessionStorage
 
-###API Functions
+### API Functions
 - **SetStorageType(val)** - Set either local or session. Case sensitivity does not matter. 
 If you enter any other text than local or session, it will default to 'local'.
 
@@ -45,7 +45,7 @@ storedjs.Append('Fullname', 'Esq.', undefined); // DrFred BloggsEsq.
 ```
 
 
-###LocalStorage
+### LocalStorage
 
 ```javascript
 // clean up existing values in both localStorage and sessionStorage
@@ -86,7 +86,7 @@ value: "9850934-=mnhg-232349234-asw"
 4 items in storage
 ````
 
-###SessionStorage
+### SessionStorage
 
 The following examples shows how you can use Prepend and Append.
 
