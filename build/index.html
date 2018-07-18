@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StoredJS</title>
+
+    <script type="text/javascript" src="storedjs.min.js"></script>
+
+</head>
+<body>
+
+
+<script type="text/javascript">
+    // clean up existing values in both localStorage and sessionStorage
+    storedjs.ClearAll();
+
+    // SAVE TO LOCALSTORAGE
+    storedjs.SetStorageType('local');
+    storedjs.SetValue('Fullname', 'Fred Bloggs');
+    storedjs.SetValue('Address1', '42 high Street');
+    storedjs.SetValue('SerialNumber', '2342565475675678');
+    storedjs.SetValue('TicketNumber', '9850934-=mnhg-232349234-asw');
+
+    console.log("Fullname: " + storedjs.GetValue('Fullname'));
+    console.log("Available Key names held in storage " + storedjs.GetKeys());
+    console.log("Key names and values in local storage ");
+    console.log(storedjs.GetKeysAndValues());
+    console.log(storedjs.Count() + " items in storage");
+
+    // SAVE TO SESSIONSOTRAGE
+    storedjs.SetStorageType('session');
+    storedjs.SetValue('SpecialCodename', 'Bond');
+    storedjs.Prepend('SpecialCodename', 'James', undefined);
+    storedjs.Append('SpecialCodename', '007', undefined);
+    storedjs.SetValue('Organisation', 'MI5');
+
+    console.log("Key names and values in session storage ");
+    console.log(storedjs.GetKeysAndValues());
+    console.log(storedjs.Count() + " items in storage");
+
+</script>
+
+</body>
+</html>
