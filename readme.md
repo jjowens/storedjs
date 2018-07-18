@@ -34,7 +34,7 @@ you might want to append the value to the existing value.
 The delmiter is the space where you can place a letter or a white space between your new value 
 and the existing text. For example, Append("Fullname", "BSc", " ") will update the text as "Prof Bloggs BSc".
 
-A few notes abut the Prepend and Append method, if you don't set a Delimiter, there will be no default between the new 
+A few notes about the Prepend and Append method, if you don't set a Delimiter, there will be no spacing/letter between the new 
 value and the existing text e.g.
 
 ```javascript
